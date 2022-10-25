@@ -1,0 +1,790 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    margin-top: 25px;
+    position: fixed;
+    right: 0;
+    z-index: 9999999999;
+
+}
+.navbar .line {
+    margin-left: 30px;
+    width: 760px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.362);
+}
+
+.navbar .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.314);
+    padding: 15px 120px 15px 30px;
+
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-left: 15px;
+    border-bottom: solid 1px transparent;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+    border-bottom: solid 1px white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.navbar .navbar-nav .nav-item .nav-link span {
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/images/home/background-home-desktop.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.home .row {
+    justify-content: center;
+
+}
+
+.home .text {
+    margin-top: 300px;
+    height: 370px;
+}
+
+.home .text .p1 {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.696)
+}
+
+.home .text h1 {
+    font-weight: 100;
+    font-size: 150px;
+    color: white;
+    text-align: center;
+}
+
+.home .text .p2 {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.696)
+}
+
+.home .button {
+    height: 370px;
+    margin-top: 300px;
+    text-align: center;
+
+}
+
+.home .button button {
+    margin-top: 130px;
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+}
+
+.destination {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/images/destination/background-destination-desktop.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 30px;
+}
+
+.destination .head {
+    height: 100px;
+    margin-left: 100px;
+    overflow: hidden;
+
+}
+
+.destination .head h2 {
+    margin-top: 60px;
+    color: white;
+
+}
+
+.destination .head h2 span {
+    color: gray;
+}
+
+.destination .row {
+    justify-content: center;
+}
+
+.destination .plant {
+    height: 500px;
+    margin-top: 50px;
+
+
+
+}
+
+.destination .plant img {
+
+    margin-left: 60px;
+}
+
+.destination .text {
+    margin-top: 150px;
+    /* margin-left: 90px; */
+    height: 400px;
+
+
+}
+
+.destination .text h2 {
+    font-size: 90px;
+    font-weight: 300;
+    color: white;
+}
+
+.destination .text p {
+    color: grey;
+}
+
+.destination .text .container-fluid .row {
+    margin-top: 60px;
+    justify-content: space-around;
+    border-top: solid 1px rgba(255, 255, 255, 0.223);
+}
+
+.destination .text .container-fluid .row .avg {
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+.destination .text .container-fluid .row .avg span {
+    color: white;
+    font-size: 25px;
+}
+
+.nav-pills {
+    background-color: rgba(255, 255, 255, 0.162);
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.nav-pills .nav-item .nav-link {
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+
+}
+
+.nav-pills .nav-item {
+    border-bottom: solid 3px transparent;
+    margin: auto;
+}
+
+.nav-pills .nav-item:hover {
+    border-bottom: solid 3px white;
+
+
+}
+
+.crew {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/images/crew/background-crew-desktop.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.crew .head {
+    height: auto;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.crew .head h2 {
+    margin-top: 60px;
+    color: white;
+
+}
+
+.crew .head h2 span {
+    color: gray;
+}
+
+.crew .row {
+    justify-content: center;
+}
+
+.crew .text {
+    height: 300px;
+    margin-top: 150px;
+}
+
+.crew .text .p1 {
+    color: grey;
+    font-size: 25px;
+}
+
+.crew .text h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.crew .text .p2 {
+    color: gray;
+
+}
+
+.crew .img {
+    height: auto;
+
+}
+
+.crew .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.crew .carousel-indicators {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.crew .carousel-indicators li {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.tech {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/images/technology/background-technology-desktop.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    padding-bottom: 60px;
+
+}
+
+.tech .head {
+    margin-top: 50px;
+    height: auto;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.tech .head h2 {
+    margin-top: 60px;
+    color: white;
+
+}
+
+.tech .head h2 span {
+    color: gray;
+}
+
+.tech .row {
+    justify-content: center;
+}
+
+.tech .text {
+    height: auto;
+    margin-top: 100px;
+
+}
+
+.tech .text .p1 {
+    color: grey;
+    font-size: 16px;
+}
+
+.tech .text h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.tech .text .p2 {
+    color: gray;
+
+}
+
+.tech .img {
+    height: auto;
+}
+
+.tech .img img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px ;
+    color: white;
+    background-image: url(../assets/images/destination/background-destination-desktop.jpg);
+}
+
+footer .copy {
+    height: auto;
+
+}
+
+footer .copy h3 {
+    margin: 100px;
+    
+}
+
+footer .copy h3 a {
+    color: grey;
+    text-decoration-line: none;
+}
+
+footer .design {
+    height: auto;
+
+
+}
+
+footer .design h3 {
+    margin: 100px;
+   
+}
+
+@media(max-width:480px) {
+    .navbar {
+        margin-top: 25px;
+        position: fixed;
+        right: 0;
+        z-index: 9999999999;
+
+    }
+
+    .navbar .line {
+        display: none;
+    }
+
+    .navbar .navbar-nav {
+        background-color: rgba(0, 0, 0, 0.314);
+        padding: 0;
+
+    }
+    .navbar .navbar-toggler span i{
+        color: white;
+    }
+
+    .navbar .navbar-brand {
+         position: fixed;
+        top: 15px;
+        left: 300px 
+    }
+
+    
+
+    .navbar .navbar-nav .nav-item {
+        margin-left: 15px;
+        border-bottom: solid 1px transparent;
+    }
+
+    .navbar .navbar-nav .nav-item:hover {
+        border-bottom: solid 1px white;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: rgba(255, 255, 255, 0.696);
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link span  {
+        color: grey;
+    }
+    .navbar .navbar-toggler span img{
+        position: fixed;
+       right: 320px;
+    }
+    .navbar .navbar-collapse{
+        margin-right: 100px;
+    }
+
+    .home {
+        width: 100%;
+        height: auto;
+        background-image: url(../assets/images/home/background-home-mobile.jpg);
+        background-size: 100% 100%;
+        position: relative;
+        padding-bottom: 100px;
+    }
+
+    .home .row {
+        justify-content: center;
+
+    }
+
+    .home .text {
+        margin-top: 150px;
+        height: 370px;
+    }
+
+    .home .text .p1 {
+        font-size: 30px;
+        color: rgba(255, 255, 255, 0.696)
+    }
+
+    .home .text h1 {
+        font-weight: 100;
+        font-size: 80px;
+        color: white;
+        text-align: center;
+        
+    }
+
+    .home .text .p2 {
+        margin-top: 30px;
+        color: rgba(255, 255, 255, 0.696)
+    }
+
+    .home .button {
+        height: 370px;
+        margin-top: 100px;
+        text-align: center;
+     
+        
+
+    }
+
+    .home .button button {
+        margin-top: 130px;
+        float: none;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        font-size: 20px;
+        border: none;
+    }
+
+    .destination {
+        width: 100%;
+        height: auto;
+        background-image: url(../assets/images/destination/background-destination-mobile.jpg);
+        background-size: 100% 100%;
+        padding-bottom: 30px;
+    }
+
+    .destination .head {
+        height: 150px;
+        margin-left:0;
+        overflow: hidden;
+
+    }
+
+    .destination .head h2 {
+        margin-top: 60px;
+        font-size: 25px;
+        color: white;
+
+    }
+
+    .destination .head h2 span {
+        color: gray;
+    }
+
+    .destination .row {
+        justify-content: center;
+    }
+
+    .destination .plant {
+        height: 500px;
+        margin-top: 50px;
+
+
+
+    }
+
+    .destination .plant img {
+
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .destination .text {
+        margin-top: 100px;
+        height: 400px;
+
+
+    }
+
+    .destination .text h2 {
+        font-size: 90px;
+        font-weight: 300;
+        color: white;
+    }
+
+    .destination .text p {
+        color: grey;
+    }
+
+    .destination .text .container-fluid .row {
+        margin-top: 60px;
+        justify-content: space-around;
+        border-top: solid 1px rgba(255, 255, 255, 0.223);
+    }
+
+    .destination .text .container-fluid .row .avg {
+        font-size: 13px;
+        margin-top: 16px;
+    }
+
+    .destination .text .container-fluid .row .avg span {
+        color: white;
+        font-size: 25px;
+    }
+
+    .nav-pills {
+        background-color: rgba(255, 255, 255, 0.162);
+        width: 350px;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .nav-pills .nav-item .nav-link {
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+
+    }
+
+    .nav-pills .nav-item {
+        border-bottom: solid 3px transparent;
+        margin: auto;
+    }
+
+    .nav-pills .nav-item:hover {
+        border-bottom: solid 3px white;
+
+
+    }
+
+    .crew {
+        width: 100%;
+        height: auto;
+        background-image: url(../assets/images/crew/background-crew-mobile.jpg);
+        background-size: 100% 100%;
+        position: relative;
+        padding-bottom: 70px;
+    }
+
+    .crew .head {
+        height: auto;
+        padding-bottom: 50px;
+        margin-left: 0;
+        overflow: hidden;
+       
+    }
+   
+
+    .crew .head h2 {
+        margin-top: 60px;
+        color: white;
+
+    }
+
+    .crew .head h2 span {
+        color: gray;
+    }
+
+    .crew .row {
+        justify-content: center;
+    }
+
+    .crew .text {
+        height: 300px;
+        margin-top: 150px;
+    }
+
+    .crew .text .p1 {
+        color: grey;
+        font-size: 25px;
+    }
+
+    .crew .text h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .crew .text .p2 {
+        color: gray;
+
+    }
+
+    .crew .img {
+        height: auto;
+
+    }
+
+    .crew .img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .crew .carousel-indicators {
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+    }
+
+    .crew .carousel-indicators li {
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        margin-right: 10px;
+    }
+
+    .tech {
+        width: 100%;
+        height: auto;
+        background-image: url(../assets/images/technology/background-technology-mobile.jpg);
+        background-size: 100% 100%;
+        overflow: hidden;
+        padding-bottom: 60px;
+
+    }
+
+    .tech .head {
+        margin-top: 50px;
+        height: auto;
+        padding-bottom: 50px;
+        margin-left: 0;
+        overflow: hidden;
+    }
+
+    .tech .head h2 {
+        margin-top: 60px;
+        color: white;
+
+    }
+
+    .tech .head h2 span {
+        color: gray;
+    }
+
+    .tech .row {
+        justify-content: center;
+    }
+
+    .tech .text {
+        height: auto;
+        margin-top: 100px;
+
+    }
+
+    .tech .text .p1 {
+        color: grey;
+        font-size: 16px;
+    }
+
+    .tech .text h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .tech .text .p2 {
+        color: gray;
+
+    }
+
+    .tech .img {
+        height: auto;
+    }
+
+    .tech .img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+        color: white;
+        padding-bottom: 30px;
+        background-image: url(../assets/images/destination/background-destination-desktop.jpg);
+    }
+
+    footer .copy {
+        height: auto;
+
+    }
+
+    footer .copy h3 {
+        margin: 50px;
+        font-size: 25px;
+    }
+
+    footer .copy h3 a {
+        color: grey;
+        text-decoration-line: none;
+    }
+
+    footer .design {
+        height: auto;
+
+    }
+
+    footer .design h3 {
+        margin: 50px;
+        font-size: 20px;
+    }
+}
+
+@media(min-width:481px) and (max-width:767px)  {
+    .navbar {
+        margin-top: 25px;
+        position: fixed;
+        right: 0;
+        z-index: 9999999999;
+
+    }
+
+    .navbar .line {
+        display: none;
+    }
+
+    .navbar .navbar-nav {
+        background-color: rgba(0, 0, 0, 0.314);
+        padding: 0;
+
+    }
+    .navbar .navbar-toggler span i{
+        color: white;
+    }
+
+    .navbar .navbar-brand {
+         position: fixed;
+        top: 15px;
+        left: 700px 
+    }
+    .navbar .navbar-toggler span img{
+        position: fixed;
+       right: 710px;
+    }
+    .navbar .navbar-collapse{
+        margin-right: 500px;
+    }
+}
